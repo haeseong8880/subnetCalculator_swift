@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		312CB926290E4DC00066C067 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312CB925290E4DC00066C067 /* MainTableViewCell.swift */; };
 		31E453492906C93300BC2A5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E453482906C93300BC2A5B /* AppDelegate.swift */; };
 		31E4534B2906C93300BC2A5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E4534A2906C93300BC2A5B /* SceneDelegate.swift */; };
 		31E4534D2906C93300BC2A5B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E4534C2906C93300BC2A5B /* MainViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		312CB925290E4DC00066C067 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		31E453452906C93300BC2A5B /* subnetCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = subnetCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E453482906C93300BC2A5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31E4534A2906C93300BC2A5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		312CB924290E4DB10066C067 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				312CB925290E4DC00066C067 /* MainTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		31E4533C2906C93300BC2A5B = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +79,7 @@
 		31E45361290D350C00BC2A5B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				312CB924290E4DB10066C067 /* Cell */,
 				31E4534C2906C93300BC2A5B /* MainViewController.swift */,
 				31E4534E2906C93300BC2A5B /* Main.storyboard */,
 			);
@@ -148,6 +159,7 @@
 			files = (
 				31E4534D2906C93300BC2A5B /* MainViewController.swift in Sources */,
 				31E453492906C93300BC2A5B /* AppDelegate.swift in Sources */,
+				312CB926290E4DC00066C067 /* MainTableViewCell.swift in Sources */,
 				31E4534B2906C93300BC2A5B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
